@@ -1,6 +1,6 @@
 import './App.css'
-import Contacto from './components/Contacto'
 import Home from './components/Home';
+import Contacto from './components/Contacto'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -13,14 +13,12 @@ function App() {
     <>
 
       <div>
-        {/* <BrowserRouter>
+        <BrowserRouter>
           <Routes>
-            <Route path='/Home' element={<Home />} />
+            <Route path='/' element={<Home />} />
             <Route path='/Contacto' element={<Contacto />}/>
           </Routes>
-        </BrowserRouter> */}
-        {/* <Home /> */}
-        <Contacto />
+        </BrowserRouter>    
       </div>
 
 
